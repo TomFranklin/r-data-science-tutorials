@@ -15,10 +15,10 @@ A repository for the **Manchester Metrics** introduction to data science with ap
 Handouts will be provided in week 1 and slides will be emailed to students. R scripts will be in this repository in the format of the course overview suggests as .R and .Rmd files. 
 
 
-#### Tutorial 1 - 08/03/2018 at Univeristy Place 5pm-6:30pm
+#### Tutorial 1 - 08/03/2018 at Univeristy Place, 3.213 5pm-6:30pm
 
-#### Tutorial 2 - 15/03/2018 at Univeristy Place 5pm-6:30pm
+#### Tutorial 2 - 15/03/2018 at Univeristy Place, 3.213 5pm-6:30pm
 
-#### Tutorial 3 - 22/03/2018 at Univeristy Place 5pm-6:30pm
+#### Tutorial 3 - 22/03/2018 at Roscoe Building 3.3 5pm-6:30pm
 
-#### Tutorial 4 - 19/04/2018 at Univeristy Place 5pm-6:30pm
+#### Tutorial 4 - 19/04/2018 at Univeristy Place, 3.213 5pm-6:30pm
