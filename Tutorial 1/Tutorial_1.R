@@ -34,3 +34,28 @@ skim(raw_data) # summary statistics of data as loaded directly
 
 class(raw_data$Fare)
 
+# Changing the class of a variable to a factor (categorical variable)
+
+raw_data$Pclass <- factor (raw_data$Pclass)
+class (raw_data$Pclass)
+
+#### 
+# 4. Introduction to dplyr ----
+
+# Selecting data 
+
+raw_data %>%
+  select(Survived, Name) -> selected_data
+
+# Remaning variables data
+
+raw_data %>%
+  rename(Gender = Sex) -> renamed_variable_in_data
+  
+# Arranging data
+
+raw_data %>%
+  arrange(desc(Fare)) -> highest_fare_top_data
+
+raw_data %>%
+  arrange(Fare) -> lowest_fare_top_data
