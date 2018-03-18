@@ -36,7 +36,7 @@ class(raw_data$Fare)
 
 # Changing the class of a variable to a factor (categorical variable)
 
-raw_data$Pclass <- factor (raw_data$Pclass)
+raw_data$Pclass <- as.factor (raw_data$Pclass)
 class (raw_data$Pclass)
 
 #### 
