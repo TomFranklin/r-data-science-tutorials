@@ -1,5 +1,5 @@
 # 15/03/2017
-# Tutorial 1 - Univeristy Place, 3.213
+# Tutorial 2 - Univeristy Place, 3.213
 
 ####
 # Psuedocode ----
@@ -21,6 +21,7 @@ raw_data <- titanic_train # taking data from the titanic package and defining it
 
 #### 
 # 2. Clean data ----
+
 raw_data$Pclass <- as.factor (raw_data$Pclass)
 
 raw_data$Embarked <- as.factor (raw_data$Embarked)
@@ -54,7 +55,6 @@ raw_data %>%
                      ifelse(Fare == 0 & Pclass == 2, 14,
                      ifelse(Fare == 0 & Pclass == 3, 8, Fare)))) -> fare_data_full
 
-
 # ii. Recoding data
 
 raw_data %>%
@@ -67,14 +67,7 @@ raw_data %>%
 raw_data %>%
   distinct (Embarked)
 
-  
-  
-  
-  
-  
-
-
-
+####
 # 4. Summarise data with crosstabulations ----
 
 table (raw_data$Sex)
