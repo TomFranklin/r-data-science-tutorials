@@ -11,9 +11,9 @@
 #### 
 # 1.Load libraries and titanic data ----
 
-install.packages("titanic") # pg. 9 install
-install.packages("skimr") # pg. 12 install
-install.packages("dplyr") # pg.16 install
+#install.packages("titanic") # pg. 9 install
+#install.packages("skimr") # pg. 12 install
+#install.packages("dplyr") # pg.16 install
 
 library(titanic) # load libraries
 library(skimr)
